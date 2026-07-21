@@ -20,22 +20,7 @@ The goal is to transform a collection of separate notes into a connected knowled
 
 The system follows this pipeline:
 
-Markdown Note
-      |
-      v
-Markdown Parser
-      |
-      v
-JSON Note
-      |
-      v
-Embedding Generation
-      |
-      v
-Similarity Comparison
-      |
-      v
-Knowledge Graph
+Markdown Note -> Markdown Parser -> JSON Note -> Embedding Generation -> Similarity Comparison -> Knowledge Graph
 
 
 When a new note is created, the system:
